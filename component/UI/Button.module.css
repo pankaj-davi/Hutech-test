@@ -1,0 +1,10 @@
+.btn{
+    
+    color:var(--btn-primary-color);
+    border:1px solid var(--btn-primary-color);
+    padding:0.4rem 1.4rem;
+    color:#FFF;
+    border-radius: 4px;
+    border:0;
+    cursor:pointer;
+}

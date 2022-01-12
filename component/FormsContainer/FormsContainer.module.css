@@ -1,0 +1,35 @@
+.container{
+    width:90vw;
+    margin:0 auto;
+    margin-top:2rem;
+}
+
+.formsHeading{
+    list-style-type:none; 
+    display:flex;
+    align-items:center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.formsHeading  li{
+    margin-right: 2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.formsHeading li h3{
+    font-family: var(--font-family-roboto);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.active{
+    background-color: orange; 
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+}
+
+

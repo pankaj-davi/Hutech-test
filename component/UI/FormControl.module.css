@@ -1,0 +1,53 @@
+.control {
+    position:relative;
+}
+
+.control label{
+    display:block;
+    font-weight:600;
+}
+
+.control input{
+    padding:0.5rem;
+    margin-top:0.5rem ;
+    outline:none;
+    width: 100%;
+}
+
+.invalid input{
+    border:1px solid red;
+}
+
+.control .errorBorder{
+    position:absolute;
+    font-size:0.7rem;
+    color: rgba(243, 7, 7, 0.836);
+}
+
+.nestedInput{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.nestedInput label{
+    display:block;
+    font-weight:600;
+}
+
+.nestedInput input{
+    padding:0.5rem;
+    margin-top:0.5rem ;
+    outline:none;
+    width: 100%;
+}
+
+.nestedInput .invalid input{
+    border:1px solid red;
+}
+
+.nestedInput .errorBorder{
+    position:absolute;
+    font-size:0.7rem;
+    color: rgba(243, 7, 7, 0.836);
+}

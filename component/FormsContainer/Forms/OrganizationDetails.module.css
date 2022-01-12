@@ -1,0 +1,52 @@
+
+.container h4{
+    padding: 1rem;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.formContainer{
+    margin:3rem 5rem 0;
+}
+
+.form{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    
+}
+
+.actions{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    margin-top: 2rem;
+}
+
+.btnPrimary{
+    margin-right: 1.2rem;
+    background-color: var(--btn-primary-color);
+     border:1px solid var(--btn-primary-color);
+}
+
+.disablePrimaryBtn{
+    margin-right: 1.2rem;
+    background-color: var(--btn-disable-primary);
+    
+}
+
+
+@media only screen and (max-width:1100px){
+    .form{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3rem;
+        
+    }
+}
+
+@media only screen and (max-width:750px){
+    .form{
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        
+    }
+}
